@@ -3,8 +3,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi, i'm Babu Natarajan</title>
-   <style>
- *{
+<style>
+   *{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -148,7 +148,7 @@
 @media only screen and (min-width: 600px) {
   .h1{
   font-weight: 600;
-  font-size: 80px;
+  font-size: 70px;
 }
 .ptag {
   font-size: 1.2rem;
@@ -181,6 +181,19 @@ top: 15px;
 left: 15px; 
 box-sizing: inherit; 
 }
+.button{
+   
+  display: flex;
+  color: black;
+  height: 60px;
+  width: 100px;
+ align-items: center;
+ background: rgba(255,255, 255, .1);
+ box-shadow: 0 25px 45px rgba(0,0, 0, .2);
+ justify-content: center;   
+ margin: auto;
+  margin-top:15px;
+}
 }
 span{
     color: aliceblue;
@@ -198,7 +211,43 @@ span{
       margin: auto;
        margin-top:15px;
 }
-   </style>
+.aboutme{
+    display: flex;
+       color: black;
+       height: 60px;
+       width: 100px;
+      align-items: center;
+      justify-content: center;   
+      margin: auto;
+       margin-top:100px;
+}
+.do{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  margin-top: 40px;
+  height: 300px;
+  width: 100%;
+
+ 
+}
+.rititle{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+   height: 40px;
+  width: 50%;
+
+}
+.ripara{
+
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ width: 50%;
+} 
+</style>
   </head>
 
   <body>
@@ -252,7 +301,27 @@ span{
       <br>
       <p class="ptag">A Frontend focused Web Developer building the Frontend of Websites and Web Applications <br>that leads to the success of the overall product</p>
    </div>
-
+  <div class="button">
+   Project
+  </div>
+ <div class="aboutme">
+  <h4>ABOUT ME</h4></div>
+  <p class="do">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+ 
+ <div class="main">
+  <div class="ri">
+    <h4 class="rititle">Get to know me!</h4></div>
+    <div class="ripara">
+    <p > 
+      Hello!👋 I'm <strong>Babu Natarajan</strong>  ,an aspiring front-end developer passionate <br>about crafting delightful and intuitive digital experiences.
+         <br> I'm  <strong>Frontend Focused Web Developer</strong> I have a strong foundation <br> in <strong>HTML, CSS, </strong>and<strong>JavaScript</strong>  , and I'm proficient in utilizing modern <br>
+           frameworks like <strong>React</strong> ,
+           and I'm constantly expanding my knowledge <br> by exploring new technologies and frameworks.  eager to learn from experienced developers and contribute my skills to a team environment.
+    </p>
+  </div>
+  </div>
+  <div class="le"></div>
+ </div>
 <script >
     function showSidebar(){
     const sidebar = document.querySelector('.sidebar')
